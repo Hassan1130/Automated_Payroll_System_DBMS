@@ -1,0 +1,91 @@
+body{
+    font-family:serif;
+    background-color: #ffed;
+}
+/*log_in*/
+.main_div{
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 400px;
+    border-color: #A36361;
+}
+.Data{
+    background-image: url("../logos/10945567.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(243, 229, 192);
+    color:black;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 30px 0px 0px 30px;
+    border-color: #A36361;
+}
+.Login{
+    color: #A36361;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 0px 30px 30px 0px;
+    border-color: #A36361;
+  text-shadow: 1px 1px 2px #000000;
+  background-image:linear-gradient(#e6ecd2 50%, #f9f9f7);
+
+}
+input{
+    background-color: rgb(243, 229, 192);
+    border: 0px;
+}
+button{
+    background-image: linear-gradient(45deg,#d2a39d,#E8B298,#EECC8C);
+    text-shadow: 1px 1px 2px #000000;
+
+
+} 
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+/*Loan*/
+.tab_head{
+    background-image: linear-gradient(45deg,#d2a39d,#E8B298);
+    color:white;
+    text-shadow: 1px 1px 2px #000000;
+
+}
+
+.tab_body{
+    background-color:#e8f1ca
+}
+
+
+/* footer */
+footer{
+    height: 300px;
+    background-color:  rgb(170, 206, 230);
+    margin-top: 100px;
+}
+footer>div{
+    display: flex;
+    justify-content:space-around;
+   
+}
+footer>div>div{
+    width: 50%;
+}
+footer>div>div>h3{
+    text-align: center;
+    padding-top: 30px;
+}
+footer>div>div>p{
+    text-align: center;
+    padding-top: 10px;
+}
+footer>div>div>div>ul{
+    width: 50%;
+    margin: auto;
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
